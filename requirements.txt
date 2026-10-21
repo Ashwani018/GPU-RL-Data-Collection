@@ -1,0 +1,5 @@
+numpy
+numba
+matplotlib
+# optional, only for tests/check_vs_gym.py:
+# gymnasium
