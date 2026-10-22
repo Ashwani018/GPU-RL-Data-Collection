@@ -47,7 +47,7 @@ iterations (K), samples collected, kernel launches, execution time (median, min,
 the one-time copy-back of the final states, the total time, throughput and the final-state hash.
 Two notebooks contain the whole project (every file is written by a `%%writefile` cell, with a
 heading above every cell):
-- `GPU_RL_Benchmark.ipynb` - the real benchmarking only (no live demo).
+
 - `GPU_RL_Benchmark_with_Live_Demo.ipynb` - the same, plus the live simulation demo.
 `plot.py`, `report.py` and `visualize.py` show the largest configuration measured by default
 (N = 1,048,576, K = 1,000). The CPU baseline runs only up to N = 262,144 games (pure Python would
